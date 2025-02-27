@@ -36,6 +36,15 @@ const sortArr = [...new Set(arr)];
 const filteredArr = arr.filter( (a, i) => a===5 );
 // console.log(filteredArr); // [5, 5, 5]
 
+// 순서 뒤집기(거꾸로)
+// console.log(arr);
+arr.reverse();
+// console.log(arr); // [9, 6, 5, 5, 5, 4, 2, 1, -3]
+
+// 문자열로 합치기 (기본값 .,')
+const joinArr = arr.join('');
+// console.log(joinArr);
+
 // 배열의 길이만큼 반복 [key, value]
 // in, of도 사용 가능
 for( const [i, ar] of arr.entries()) {
@@ -66,3 +75,13 @@ const maxScore1 = Math.max(...arr);
 const maxScore2 = Math.max(1, 2, 3);
 // console.log(maxScore1); // 9
 // console.log(maxScore2); // 3
+
+// 반올림
+const roundFloat = Math.round(9.47 * 10)/10;
+// 올림
+const ceilFloat = Math.ceil(9.47 / 10)*10;
+// 버림
+const floorFloat = Math.floor(9.47 * 10)/10;
+// console.log(ceilFloat);
+// console.log(roundFloat);
+// console.log(floorFloat);
