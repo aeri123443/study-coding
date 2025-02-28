@@ -23,6 +23,10 @@ arr.shift(); // [1, 9, 4, 5, 5, -3, 2, 6, 4, 5, 5]
 arr.splice(2, 2); // [1, 9, 5, -3, 2, 6, 4, 5, 5]
 // console.log(arr); // [1, 9, 5, -3, 2, 6, 4, 5, 5]
 
+// 슬라이스
+const sliceArr = arr.slice(2,5)
+console.log(sliceArr) // [5, -3, 2]
+
 // 오름차순 정렬
 // arr.sort( (a,b) => a-b );
 arr.sort( (a,b) => a-b );
