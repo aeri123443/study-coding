@@ -1,6 +1,5 @@
 /**
- * p.161 10. 짝지어 제거하기
- * 소요시간: 32m 37s
+ * p.164 12. 주식 가격
  * try 2를 조금 더 깔끔하게
  */
 
@@ -21,7 +20,7 @@ function solution(prices) {
         const p = stack.pop();
         answer[p] = len - 1 - p;
     }
-    
+
     return answer;
 }
 
