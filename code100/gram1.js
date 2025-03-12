@@ -25,7 +25,7 @@ arr.splice(2, 2); // [1, 9, 5, -3, 2, 6, 4, 5, 5]
 
 // 슬라이스
 const sliceArr = arr.slice(2,5)
-console.log(sliceArr) // [5, -3, 2]
+// console.log(sliceArr) // [5, -3, 2]
 
 // 오름차순 정렬
 // arr.sort( (a,b) => a-b );
@@ -55,6 +55,12 @@ for( const [i, ar] of arr.entries()) {
     // console.log(i, ar) // 0 -3  | 1 1 | 2 2 | ... | 7 6 | 8 9
 }
 
+// 배열 순회
+let mapArr1 = [...new Array(6)].map( (_,i) => i );
+let mapArr2 = mapArr1.map( (v) => v );
+// console.log(mapArr1); // [0, 1, 2, 3, 4, 5]
+// console.log(mapArr2); // [0, 1, 2, 3, 4, 5]
+
 /**
  * 객체
  */
@@ -69,6 +75,16 @@ obj['e'] = 0;
 let objToList = Object.entries(obj);
 // console.log(objToList); // [Array(2), Array(2), Array(2), Array(2), Array(2)]
 // console.log(objToList[0]); // ['a', 0.125]
+
+/**
+ * 문자열
+ */
+
+// 문자열 분리
+let splitStr1 = "ab c d".split('');
+let splitStr2 = "ab c d".split(' ');
+// console.log(splitStr1);
+// console.log(splitStr2);
 
 /**
  * 수학
