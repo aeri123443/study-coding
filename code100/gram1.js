@@ -86,6 +86,16 @@ let splitStr2 = "ab c d".split(' ');
 // console.log(splitStr1);
 // console.log(splitStr2);
 
+// 아스키 코드
+let charToCode = "a".charCodeAt();
+let strToCode = "abc".charCodeAt(1);
+let codeToChar = String.fromCharCode(65);
+let codeToStr = String.fromCharCode(65, 66, 67);
+// console.log(charToCode);
+// console.log(strToCode);
+// console.log(codeToChar);
+// console.log(codeToStr);
+
 /**
  * 수학
  */
