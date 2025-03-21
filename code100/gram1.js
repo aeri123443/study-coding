@@ -73,8 +73,11 @@ obj['e'] = 0;
 // 객체를 리스트로
 // [key, value] 배열이 들어간 2차원 배열 반환
 let objToList = Object.entries(obj);
-// console.log(objToList); // [Array(2), Array(2), Array(2), Array(2), Array(2)]
-// console.log(objToList[0]); // ['a', 0.125]
+let objToListBykey = Object.keys(obj);
+let objToListByVal = Object.values(obj);
+// console.log(JSON.stringify(objToList)); // [["a",0.125],["b",0.42857142857142855],["c",0.5],["d",0.5],["e",0]]
+// console.log(JSON.stringify(objToListBykey)); // ["a","b","c","d","e"]
+// console.log(JSON.stringify(objToListByVal)); // [0.125,0.42857142857142855,0.5,0.5,0]
 
 /**
  * 문자열
