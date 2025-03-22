@@ -89,6 +89,12 @@ let splitStr2 = "ab c d".split(' ');
 // console.log(splitStr1);
 // console.log(splitStr2);
 
+// 문자열 정렬
+let sortedStr = [...'abcd'].sort();
+let sortedStrRev = [...'abcd'].sort().reverse();
+// console.log(sortedStr)
+// console.log(sortedStrRev)
+
 // 아스키 코드
 let charToCode = "a".charCodeAt();
 let strToCode = "abc".charCodeAt(1);
@@ -104,7 +110,7 @@ let codeToStr = String.fromCharCode(65, 66, 67);
  */
 
 // 최대 최소
-const maxScore1 = Math.max(...arr);
+const maxScore1 = Math.max(...arr); //배열은 펼쳐서 넣어야 함
 const maxScore2 = Math.max(1, 2, 3);
 // console.log(maxScore1); // 9
 // console.log(maxScore2); // 3
