@@ -20,6 +20,7 @@ function combination(arr, selectNum){
 }
 
 console.log(JSON.stringify(combination([1,2,3,4], 3)))
+// [[1,2,3],[1,2,4],[1,3,4],[2,3,4]]
 
 // 순열
 function permutation(arr, selectNum){
@@ -38,3 +39,5 @@ function permutation(arr, selectNum){
 
 console.log(JSON.stringify(permutation([1,2,3,4], 3)))
 console.log(permutation([1,2,3,4], 3).length)
+// [[1,2,3],[1,2,4],[1,3,2],[1,3,4],[1,4,2],[1,4,3],[2,1,3],[2,1,4],[2,3,1],[2,3,4],[2,4,1],[2,4,3],[3,1,2],[3,1,4],[3,2,1],[3,2,4],[3,4,1],[3,4,2],[4,1,2],[4,1,3],[4,2,1],[4,2,3],[4,3,1],[4,3,2]]
+// 24
