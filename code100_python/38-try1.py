@@ -2,8 +2,6 @@
 p.426 38. 깊이 우선 탐색 순회
 '''
 
-from collections import deque
-
 def solution(graph, start):
     # 그래프 만들기
     tree = {}
