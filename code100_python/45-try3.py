@@ -4,6 +4,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/67259
 - 최소비용이니 bfs 문제가 맞음
 - visit는 어지간하면 큐에 쌓지 않고 관리하는 게 좋음
 - '길이 겹칠 가능성' -> 이 경우 어떻게 처리할지 고민
+- 09/12: 다시 풀어보기!
 '''
 
 from collections import deque
