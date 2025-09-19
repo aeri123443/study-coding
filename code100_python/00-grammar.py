@@ -34,6 +34,9 @@ a.insert(1, 4)
 # 특정 값 데이터 삭제
 a.remove(2)
 # print(a)
+# 리스트 합치기
+b = [9,8,7]
+# print(a+b)
 
 '''
 딕셔너리
@@ -139,9 +142,9 @@ x = 'c'
 # 리스트 a에 데이터 x를 삽입할 가장 오른쪽 인덱스를 찾음
 # print(bisect_right(a, x)) # 4
 
-print(bisect_left(a, 'f')) # 4
-print(bisect_left(a, 'e')) # 4
-print(bisect_left(a, 'g')) # 4
+# print(bisect_left(a, 'f')) # 4
+# print(bisect_left(a, 'e')) # 4
+# print(bisect_left(a, 'g')) # 4
 
 
 '''
