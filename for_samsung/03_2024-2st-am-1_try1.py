@@ -1,5 +1,5 @@
 '''
-미지의 공간 탈출: 2024 하반기 오전 1번 문제 (L13)
+미지의 공간 탈출: 2024 하반기 오전 1번 문제 (L14)
 https://www.codetree.ai/ko/frequent-problems/samsung-sw/problems/escape-unknown-space/description
 소요시간:6h 29m
 
