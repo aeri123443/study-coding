@@ -10,6 +10,8 @@ else는 정말 확실하게 '그 외'의 경우일 때만. 어지간하면 elif 
 
 '''
 from pprint import pprint
+# import sys
+# sys.stdin = open('input.txt', 'r')
 
 from collections import deque
 
