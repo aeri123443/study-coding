@@ -3,6 +3,9 @@
 **/.DS_Store
 **/._.
 
+# 테스트 인풋아웃풋
 input.txt
+output_answer.txt
+output_my.txt
 .cph
 999999-textcase.py
