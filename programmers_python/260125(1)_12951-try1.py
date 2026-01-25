@@ -1,5 +1,5 @@
 '''
-12951. lv JadenCase 문자열 만들기
+12951. lv2 JadenCase 문자열 만들기
 https://school.programmers.co.kr/learn/courses/30/lessons/12951
 '''
 
