@@ -1,6 +1,6 @@
 
 '''
-[PCCP 모의고사 #1] 1번 - 외톨이 알파벳
+Lv. 1 [PCCP 모의고사 #1] 1번 - 외톨이 알파벳
 https://school.programmers.co.kr/learn/courses/20847/lessons/255900
 30m 59s
 '''
