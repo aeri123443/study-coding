@@ -1,5 +1,5 @@
 '''
-49994. 방문 길이
+49994. Lv. 2 방문 길이
 https://school.programmers.co.kr/learn/courses/30/lessons/49994
 30m 5s
 '''
