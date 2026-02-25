@@ -1,5 +1,5 @@
 '''
-340211. [PCCP 기출문제] 3번 / 충돌위험 찾기
+340211. lv.2 [PCCP 기출문제] 3번 / 충돌위험 찾기
 https://school.programmers.co.kr/learn/courses/30/lessons/340211
 1h 13m 20s
 굳이 모든 경로를 저장할 필요는 없음!
