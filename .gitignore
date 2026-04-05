@@ -5,6 +5,7 @@
 
 # 테스트 인풋아웃풋
 input.txt
+**/input.txt
 output_answer.txt
 output_my.txt
 .cph
