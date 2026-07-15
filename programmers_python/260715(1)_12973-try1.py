@@ -4,8 +4,8 @@ https://school.programmers.co.kr/learn/courses/30/lessons/12973
 
 문제 분석: 5m 11s
 코드 작성: 4m 30s
-디버깅: 9m 41s
-total: 10m 23s
+디버깅: 0m 0s
+total: 9m 41s
 '''
 
 def solution(s):
